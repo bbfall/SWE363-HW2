@@ -1,0 +1,118 @@
+.main-container {
+  background-image: url("images/silverware.jpg");
+  background-repeat: repeat;
+  font-size: 3vw;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,
+h3 {
+  color: #a4a400;
+  background-color: #f0f0f0;
+  border: 3px solid;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+h1 {
+  font-size: 5vw;
+  padding: 5%;
+  margin: 1%;
+}
+h3 {
+  font-size: 3vw;
+  padding: 3%;
+  margin: 2%;
+}
+
+article,
+li,
+p {
+  font-size: 2.5vw;
+}
+
+ol,
+.ulFirst {
+  column-rule-color: #a4a400;
+  column-rule-style: solid;
+  column-gap: 7vw;
+}
+
+label,
+dt,
+dd {
+  font-size: calc(8px+ 0.8rem);
+}
+
+ul {
+  list-style-image: url(images/fish_icon_24.png);
+}
+
+.title {
+  padding: 0% 2vw;
+}
+.subTitle {
+  padding: 0% 10vw;
+}
+a {
+  color: #a4a400;
+}
+hr {
+  max-width: 1024;
+}
+
+fieldset {
+  all: unset !important;
+  margin-top: 20px !important;
+  display: block !important;
+  margin-inline-start: 2px !important;
+  margin-inline-end: 2px !important;
+  padding-block-start: 0.35em !important;
+  padding-inline-start: 0.75em !important;
+  padding-inline-end: 0.75em !important;
+  padding-block-end: 0.625em !important;
+  min-inline-size: min-content !important;
+  border-width: 2px !important;
+  border-style: groove !important;
+  border-color: rgb(192, 192, 192) !important;
+  border-image: initial !important;
+}
+
+dt,
+dd {
+  font-weight: normal;
+  background-color: #ffffa8;
+}
+
+
+
+
+@media (min-width: 768px) {
+  ol,
+  .ulFirst {
+    column-count: 2;
+  }
+  .border-right {
+    border-right: 3px solid;
+    border-color: #a4a400;
+  }
+  
+  .borderChild :nth-child(2) {
+    border: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  ol,
+  .ulFirst {
+    column-count: 3;
+  }
+
+  .borderChild :nth-child(2) {
+    border-right: 3px solid;
+    border-color: #a4a400;
+  }
+  .borderChild :last-child{
+    border: 0px;
+  }
+  
+ 
+}
